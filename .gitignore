@@ -1,0 +1,34 @@
+# Dépendances
+node_modules/
+/.pnp
+.pnp.js
+
+# Build React
+/build
+/dist
+
+# Variables d'environnement (IMPORTANT - identifiants)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Éditeurs / OS
+.DS_Store
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Backend PHP
+vendor/
+config.php
+db_config.php
+*.log
